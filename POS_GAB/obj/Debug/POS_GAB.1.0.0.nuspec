@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>POS_GAB</id>
+    <version>1.0.0</version>
+    <authors>POS_GAB</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Newtonsoft.Json" version="13.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Gradv Heizd\source\repos\POS_GAB\bin\Debug\net6.0-windows\POS_GAB.runtimeconfig.json" target="lib\net6.0-windows7.0\POS_GAB.runtimeconfig.json" />
+    <file src="C:\Users\Gradv Heizd\source\repos\POS_GAB\bin\Debug\net6.0-windows\POS_GAB.dll" target="lib\net6.0-windows7.0\POS_GAB.dll" />
+  </files>
+</package>
